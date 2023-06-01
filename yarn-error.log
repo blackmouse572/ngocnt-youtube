@@ -1,0 +1,51 @@
+Arguments: 
+  /home/bin_use_kali/.nvm/versions/node/v18.16.0/bin/node /home/bin_use_kali/.nvm/versions/node/v18.16.0/bin/yarn add mongoose mongoose-currency
+
+PATH: 
+  /home/bin_use_kali/.nvm/versions/node/v18.16.0/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/usr/lib/wsl/lib:/mnt/c/Program Files/Common Files/Oracle/Java/javapath:/mnt/c/Program Files (x86)/Common Files/Oracle/Java/javapath:/mnt/c/Windows/system32:/mnt/c/Windows:/mnt/c/Windows/System32/Wbem:/mnt/c/Windows/System32/WindowsPowerShell/v1.0/:/mnt/c/Windows/System32/OpenSSH/:/mnt/c/Program Files/NVIDIA Corporation/NVIDIA NvDLISR:/mnt/c/WINDOWS/system32:/mnt/c/WINDOWS:/mnt/c/WINDOWS/System32/Wbem:/mnt/c/WINDOWS/System32/WindowsPowerShell/v1.0/:/mnt/c/WINDOWS/System32/OpenSSH/:/mnt/c/ProgramData/chocolatey/bin:/mnt/c/Users/lenovo/.cargo/bin:/mnt/c/Program Files (x86)/NVIDIA Corporation/PhysX/Common:/mnt/c/Program Files/Microsoft SQL Server/Client SDK/ODBC/170/Tools/Binn/:/mnt/c/Program Files/Docker/Docker/resources/bin:/mnt/c/src/flutter/bin:/mnt/c/Windows/System32:/mnt/c/Program Files/Git/cmd:/mnt/c/Program Files/Git/mingw64/bin:/mnt/c/Program Files/Git/usr/bin:/mnt/c/Users/lenovo/AppData/Roaming/nvm:/mnt/c/Program Files/nodejs:/mnt/c/Program Files/Go/bin:/mnt/c/Program Files/Microsoft SQL Server/150/Tools/Binn/:/mnt/c/Program Files/dotnet/:/mnt/c/Users/lenovo/AppData/Local/Pub/Cache/bin:/mnt/c/Program Files/Cloudflare/Cloudflare WARP/:/mnt/c/Program Files/MongoDB/Server/6.0/bin:/mnt/c/Users/lenovo/.console-ninja/.bin:/mnt/c/Users/lenovo/AppData/Local/pnpm:/mnt/c/Users/lenovo/AppData/Local/Microsoft/WindowsApps:/mnt/c/Users/lenovo/AppData/Local/Programs/Microsoft VS Code/bin:/mnt/c/Users/lenovo/AppData/Roaming/Pub/Cache/bin:/mnt/c/tools/neovim/nvim-win64/bin:/mnt/c/Users/lenovo/AppData/Local/Programs/oh-my-posh/bin:/mnt/c/ProgramData/chocolatey/lib/mingw/tools/install/mingw64/bin:/mnt/c/Program Files/JetBrains/IntelliJ IDEA 2022.2/bin:/mnt/c/Users/lenovo/AppData/Local/Microsoft/WindowsApps:/mnt/c/Users/lenovo/fvm/versions/2.10.4/bin:/mnt/c/Program Files/Git/bin/git.exe:/mnt/c/Users/lenovo/go/bin:/mnt/c/Users/lenovo/.dotnet/tools:/home/bin_use_kali/.local/share/nvim/mason/bin
+
+Yarn version: 
+  1.22.19
+
+Node version: 
+  18.16.0
+
+Platform: 
+  linux x64
+
+Trace: 
+  Error: https://registry.yarnpkg.com/mongoose mongoose-currency: Bad Request
+      at params.callback [as _callback] (/home/bin_use_kali/.nvm/versions/node/v18.16.0/lib/node_modules/yarn/lib/cli.js:66145:18)
+      at self.callback (/home/bin_use_kali/.nvm/versions/node/v18.16.0/lib/node_modules/yarn/lib/cli.js:140890:22)
+      at Request.emit (node:events:513:28)
+      at Request.<anonymous> (/home/bin_use_kali/.nvm/versions/node/v18.16.0/lib/node_modules/yarn/lib/cli.js:141862:10)
+      at Request.emit (node:events:513:28)
+      at IncomingMessage.<anonymous> (/home/bin_use_kali/.nvm/versions/node/v18.16.0/lib/node_modules/yarn/lib/cli.js:141784:12)
+      at Object.onceWrapper (node:events:627:28)
+      at IncomingMessage.emit (node:events:525:35)
+      at endReadableNT (node:internal/streams/readable:1359:12)
+      at process.processTicksAndRejections (node:internal/process/task_queues:82:21)
+
+npm manifest: 
+  {
+    "name": "express-generator",
+    "version": "0.0.0",
+    "private": true,
+    "scripts": {
+      "start": "node ./bin/www"
+    },
+    "dependencies": {
+      "cookie-parser": "~1.4.4",
+      "debug": "~2.6.9",
+      "express": "~4.16.1",
+      "http-errors": "~1.6.3",
+      "jade": "~1.11.0",
+      "morgan": "~1.9.1"
+    }
+  }
+
+yarn manifest: 
+  No manifest
+
+Lockfile: 
+  No lockfile
